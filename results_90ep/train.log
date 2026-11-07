@@ -1,0 +1,328 @@
+
+== cnn_2conv (cnn, 21,994 params) {'num_conv_layers': 2, 'base_channels': 32} {}
+  ep   5  loss 1.666  train 0.368  val_loss 1.528  val 0.423
+  ep  10  loss 1.509  train 0.436  val_loss 1.364  val 0.496
+  ep  15  loss 1.417  train 0.483  val_loss 1.496  val 0.468
+  ep  20  loss 1.349  train 0.514  val_loss 1.289  val 0.520
+  ep  25  loss 1.318  train 0.525  val_loss 1.298  val 0.521
+  ep  30  loss 1.282  train 0.544  val_loss 1.133  val 0.587
+  ep  35  loss 1.250  train 0.553  val_loss 1.179  val 0.565
+  ep  40  loss 1.234  train 0.559  val_loss 1.119  val 0.598
+  ep  45  loss 1.220  train 0.564  val_loss 1.165  val 0.568
+  ep  50  loss 1.203  train 0.572  val_loss 1.097  val 0.594
+  ep  55  loss 1.188  train 0.580  val_loss 1.150  val 0.570
+  ep  60  loss 1.178  train 0.583  val_loss 1.033  val 0.636
+  ep  65  loss 1.148  train 0.594  val_loss 1.017  val 0.642
+  ep  70  loss 1.123  train 0.605  val_loss 0.985  val 0.650
+  ep  75  loss 1.103  train 0.610  val_loss 0.919  val 0.673
+  ep  80  loss 1.071  train 0.623  val_loss 0.907  val 0.668
+  ep  85  loss 1.039  train 0.634  val_loss 0.845  val 0.703
+  ep  90  loss 1.018  train 0.640  val_loss 0.835  val 0.705
+   -> val 0.7046  test 0.6923  (251s)
+
+== cnn_3conv (cnn, 102,602 params) {'num_conv_layers': 3, 'base_channels': 32} {}
+  ep   5  loss 1.310  train 0.529  val_loss 1.127  val 0.586
+  ep  10  loss 1.107  train 0.610  val_loss 1.212  val 0.572
+  ep  15  loss 0.969  train 0.660  val_loss 0.914  val 0.658
+  ep  20  loss 0.868  train 0.702  val_loss 0.819  val 0.708
+  ep  25  loss 0.798  train 0.731  val_loss 0.758  val 0.732
+  ep  30  loss 0.753  train 0.746  val_loss 0.737  val 0.740
+  ep  35  loss 0.721  train 0.760  val_loss 0.704  val 0.756
+  ep  40  loss 0.699  train 0.766  val_loss 0.743  val 0.745
+  ep  45  loss 0.671  train 0.780  val_loss 0.727  val 0.744
+  ep  50  loss 0.655  train 0.782  val_loss 0.590  val 0.796
+  ep  55  loss 0.633  train 0.793  val_loss 0.656  val 0.776
+  ep  60  loss 0.614  train 0.794  val_loss 0.626  val 0.788
+  ep  65  loss 0.595  train 0.804  val_loss 0.595  val 0.787
+  ep  70  loss 0.561  train 0.816  val_loss 0.572  val 0.803
+  ep  75  loss 0.522  train 0.829  val_loss 0.516  val 0.816
+  ep  80  loss 0.483  train 0.843  val_loss 0.453  val 0.839
+  ep  85  loss 0.440  train 0.857  val_loss 0.414  val 0.854
+  ep  90  loss 0.420  train 0.864  val_loss 0.404  val 0.857
+   -> val 0.8568  test 0.8554  (281s)
+
+== cnn_4conv (cnn, 423,562 params) {'num_conv_layers': 4, 'base_channels': 32} {}
+  ep   5  loss 0.937  train 0.674  val_loss 0.923  val 0.680
+  ep  10  loss 0.742  train 0.747  val_loss 0.818  val 0.722
+  ep  15  loss 0.621  train 0.790  val_loss 0.628  val 0.786
+  ep  20  loss 0.546  train 0.816  val_loss 0.621  val 0.783
+  ep  25  loss 0.501  train 0.831  val_loss 0.487  val 0.827
+  ep  30  loss 0.467  train 0.845  val_loss 0.544  val 0.814
+  ep  35  loss 0.448  train 0.851  val_loss 0.475  val 0.840
+  ep  40  loss 0.426  train 0.858  val_loss 0.544  val 0.818
+  ep  45  loss 0.412  train 0.861  val_loss 0.498  val 0.833
+  ep  50  loss 0.391  train 0.868  val_loss 0.546  val 0.818
+  ep  55  loss 0.374  train 0.875  val_loss 0.478  val 0.842
+  ep  60  loss 0.349  train 0.883  val_loss 0.430  val 0.853
+  ep  65  loss 0.329  train 0.889  val_loss 0.465  val 0.844
+  ep  70  loss 0.290  train 0.902  val_loss 0.418  val 0.863
+  ep  75  loss 0.251  train 0.916  val_loss 0.360  val 0.883
+  ep  80  loss 0.196  train 0.934  val_loss 0.337  val 0.894
+  ep  85  loss 0.153  train 0.951  val_loss 0.310  val 0.901
+  ep  90  loss 0.139  train 0.956  val_loss 0.302  val 0.904
+   -> val 0.9042  test 0.8954  (316s)
+
+== cnn_5conv (cnn, 1,704,458 params) {'num_conv_layers': 5, 'base_channels': 32} {}
+  ep   5  loss 0.845  train 0.707  val_loss 0.887  val 0.690
+  ep  10  loss 0.681  train 0.767  val_loss 0.663  val 0.770
+  ep  15  loss 0.571  train 0.805  val_loss 0.645  val 0.785
+  ep  20  loss 0.499  train 0.832  val_loss 0.584  val 0.802
+  ep  25  loss 0.454  train 0.844  val_loss 0.533  val 0.817
+  ep  30  loss 0.416  train 0.859  val_loss 0.481  val 0.832
+  ep  35  loss 0.397  train 0.864  val_loss 0.509  val 0.825
+  ep  40  loss 0.374  train 0.871  val_loss 0.489  val 0.834
+  ep  45  loss 0.359  train 0.879  val_loss 0.432  val 0.853
+  ep  50  loss 0.337  train 0.885  val_loss 0.441  val 0.850
+  ep  55  loss 0.319  train 0.891  val_loss 0.415  val 0.856
+  ep  60  loss 0.290  train 0.901  val_loss 0.461  val 0.848
+  ep  65  loss 0.264  train 0.911  val_loss 0.387  val 0.865
+  ep  70  loss 0.226  train 0.923  val_loss 0.435  val 0.861
+  ep  75  loss 0.177  train 0.939  val_loss 0.341  val 0.892
+  ep  80  loss 0.118  train 0.961  val_loss 0.334  val 0.897
+  ep  85  loss 0.075  train 0.976  val_loss 0.308  val 0.908
+  ep  90  loss 0.063  train 0.980  val_loss 0.305  val 0.910
+   -> val 0.9104  test 0.8960  (346s)
+
+== cnn_3conv_k5 (cnn, 267,978 params) {'num_conv_layers': 3, 'base_channels': 32, 'kernel_size': 5} {}
+  ep   5  loss 1.190  train 0.579  val_loss 1.076  val 0.610
+  ep  10  loss 0.962  train 0.667  val_loss 0.840  val 0.699
+  ep  15  loss 0.825  train 0.720  val_loss 0.847  val 0.703
+  ep  20  loss 0.731  train 0.758  val_loss 0.835  val 0.703
+  ep  25  loss 0.675  train 0.778  val_loss 0.609  val 0.787
+  ep  30  loss 0.647  train 0.787  val_loss 0.632  val 0.780
+  ep  35  loss 0.621  train 0.796  val_loss 0.865  val 0.711
+  ep  40  loss 0.593  train 0.806  val_loss 0.633  val 0.784
+  ep  45  loss 0.570  train 0.816  val_loss 0.580  val 0.800
+  ep  50  loss 0.551  train 0.820  val_loss 0.618  val 0.791
+  ep  55  loss 0.529  train 0.828  val_loss 0.523  val 0.823
+  ep  60  loss 0.513  train 0.831  val_loss 0.650  val 0.782
+  ep  65  loss 0.487  train 0.841  val_loss 0.624  val 0.793
+  ep  70  loss 0.449  train 0.854  val_loss 0.509  val 0.831
+  ep  75  loss 0.406  train 0.869  val_loss 0.488  val 0.833
+  ep  80  loss 0.353  train 0.886  val_loss 0.415  val 0.859
+  ep  85  loss 0.316  train 0.899  val_loss 0.381  val 0.871
+  ep  90  loss 0.287  train 0.909  val_loss 0.373  val 0.871
+   -> val 0.8712  test 0.8683  (179s)
+
+== cnn_4conv_w64 (cnn, 1,686,794 params) {'num_conv_layers': 4, 'base_channels': 64} {}
+  ep   5  loss 0.851  train 0.703  val_loss 0.957  val 0.673
+  ep  10  loss 0.666  train 0.771  val_loss 0.632  val 0.781
+  ep  15  loss 0.547  train 0.812  val_loss 0.679  val 0.766
+  ep  20  loss 0.449  train 0.848  val_loss 0.553  val 0.816
+  ep  25  loss 0.393  train 0.866  val_loss 0.532  val 0.817
+  ep  30  loss 0.359  train 0.878  val_loss 0.446  val 0.848
+  ep  35  loss 0.333  train 0.887  val_loss 0.460  val 0.846
+  ep  40  loss 0.305  train 0.898  val_loss 0.479  val 0.840
+  ep  45  loss 0.293  train 0.901  val_loss 0.427  val 0.862
+  ep  50  loss 0.274  train 0.907  val_loss 0.469  val 0.843
+  ep  55  loss 0.250  train 0.914  val_loss 0.449  val 0.859
+  ep  60  loss 0.231  train 0.921  val_loss 0.392  val 0.867
+  ep  65  loss 0.199  train 0.934  val_loss 0.377  val 0.877
+  ep  70  loss 0.164  train 0.946  val_loss 0.364  val 0.883
+  ep  75  loss 0.121  train 0.959  val_loss 0.355  val 0.894
+  ep  80  loss 0.070  train 0.978  val_loss 0.314  val 0.905
+  ep  85  loss 0.045  train 0.987  val_loss 0.311  val 0.913
+  ep  90  loss 0.037  train 0.990  val_loss 0.302  val 0.913
+   -> val 0.9130  test 0.9114  (302s)
+
+== cnn_4conv_nodrop (cnn, 423,562 params) {'num_conv_layers': 4, 'base_channels': 32, 'dropout': 0.0} {}
+  ep   5  loss 0.794  train 0.722  val_loss 0.811  val 0.722
+  ep  10  loss 0.618  train 0.783  val_loss 0.667  val 0.768
+  ep  15  loss 0.525  train 0.817  val_loss 0.614  val 0.786
+  ep  20  loss 0.464  train 0.839  val_loss 0.554  val 0.808
+  ep  25  loss 0.428  train 0.852  val_loss 0.571  val 0.804
+  ep  30  loss 0.400  train 0.861  val_loss 0.529  val 0.818
+  ep  35  loss 0.376  train 0.868  val_loss 0.520  val 0.818
+  ep  40  loss 0.358  train 0.876  val_loss 0.480  val 0.838
+  ep  45  loss 0.340  train 0.883  val_loss 0.545  val 0.824
+  ep  50  loss 0.331  train 0.884  val_loss 0.454  val 0.847
+  ep  55  loss 0.314  train 0.890  val_loss 0.487  val 0.844
+  ep  60  loss 0.286  train 0.899  val_loss 0.457  val 0.849
+  ep  65  loss 0.269  train 0.907  val_loss 0.413  val 0.861
+  ep  70  loss 0.231  train 0.919  val_loss 0.411  val 0.869
+  ep  75  loss 0.192  train 0.934  val_loss 0.389  val 0.876
+  ep  80  loss 0.140  train 0.953  val_loss 0.345  val 0.891
+  ep  85  loss 0.103  train 0.968  val_loss 0.334  val 0.898
+  ep  90  loss 0.090  train 0.972  val_loss 0.328  val 0.900
+   -> val 0.9004  test 0.8941  (295s)
+
+== cnn_4conv_adamw (cnn, 423,562 params) {'num_conv_layers': 4, 'base_channels': 32} {'optimizer': 'adamw', 'lr': 0.002, 'weight_decay': 0.05}
+  ep   5  loss 1.068  train 0.624  val_loss 0.921  val 0.667
+  ep  10  loss 0.822  train 0.715  val_loss 0.848  val 0.708
+  ep  15  loss 0.703  train 0.759  val_loss 0.761  val 0.742
+  ep  20  loss 0.610  train 0.791  val_loss 0.666  val 0.767
+  ep  25  loss 0.537  train 0.818  val_loss 0.504  val 0.829
+  ep  30  loss 0.471  train 0.841  val_loss 0.500  val 0.828
+  ep  35  loss 0.422  train 0.858  val_loss 0.462  val 0.843
+  ep  40  loss 0.379  train 0.872  val_loss 0.470  val 0.836
+  ep  45  loss 0.346  train 0.884  val_loss 0.476  val 0.842
+  ep  50  loss 0.302  train 0.897  val_loss 0.425  val 0.860
+  ep  55  loss 0.265  train 0.911  val_loss 0.428  val 0.865
+  ep  60  loss 0.231  train 0.922  val_loss 0.413  val 0.867
+  ep  65  loss 0.194  train 0.934  val_loss 0.377  val 0.884
+  ep  70  loss 0.157  train 0.947  val_loss 0.367  val 0.888
+  ep  75  loss 0.130  train 0.957  val_loss 0.365  val 0.893
+  ep  80  loss 0.112  train 0.963  val_loss 0.357  val 0.899
+  ep  85  loss 0.101  train 0.966  val_loss 0.357  val 0.900
+  ep  90  loss 0.094  train 0.969  val_loss 0.354  val 0.899
+   -> val 0.8986  test 0.8905  (296s)
+
+== cnn_4conv_noaug (cnn, 423,562 params) {'num_conv_layers': 4, 'base_channels': 32} {'use_augment': False}
+  ep   5  loss 0.765  train 0.739  val_loss 0.817  val 0.704
+  ep  10  loss 0.525  train 0.819  val_loss 0.636  val 0.777
+  ep  15  loss 0.362  train 0.877  val_loss 0.832  val 0.742
+  ep  20  loss 0.253  train 0.915  val_loss 0.721  val 0.776
+  ep  25  loss 0.190  train 0.936  val_loss 0.977  val 0.742
+  ep  30  loss 0.165  train 0.945  val_loss 0.893  val 0.759
+  ep  35  loss 0.148  train 0.952  val_loss 0.826  val 0.781
+  ep  40  loss 0.125  train 0.960  val_loss 0.789  val 0.789
+  ep  45  loss 0.117  train 0.962  val_loss 1.128  val 0.723
+  ep  50  loss 0.103  train 0.966  val_loss 0.784  val 0.786
+  ep  55  loss 0.080  train 0.976  val_loss 0.775  val 0.800
+  ep  60  loss 0.062  train 0.981  val_loss 0.848  val 0.792
+  ep  65  loss 0.042  train 0.989  val_loss 0.736  val 0.817
+  ep  70  loss 0.018  train 0.997  val_loss 0.706  val 0.821
+  ep  75  loss 0.007  train 0.999  val_loss 0.651  val 0.837
+  ep  80  loss 0.005  train 1.000  val_loss 0.632  val 0.838
+  ep  85  loss 0.005  train 1.000  val_loss 0.622  val 0.839
+  ep  90  loss 0.005  train 1.000  val_loss 0.624  val 0.840
+   -> val 0.8402  test 0.8375  (269s)
+
+== mlp_1x512 (mlp, 1,578,506 params) {'num_layers': 1, 'hidden_size': [512]} {'lr': 0.01}
+  ep   5  loss 1.741  train 0.382  val_loss 1.592  val 0.435
+  ep  10  loss 1.663  train 0.411  val_loss 1.488  val 0.479
+  ep  15  loss 1.643  train 0.417  val_loss 1.462  val 0.483
+  ep  20  loss 1.636  train 0.421  val_loss 1.450  val 0.486
+  ep  25  loss 1.625  train 0.426  val_loss 1.424  val 0.490
+  ep  30  loss 1.611  train 0.427  val_loss 1.398  val 0.500
+  ep  35  loss 1.601  train 0.433  val_loss 1.393  val 0.501
+  ep  40  loss 1.590  train 0.436  val_loss 1.374  val 0.509
+  ep  45  loss 1.567  train 0.444  val_loss 1.361  val 0.520
+  ep  50  loss 1.561  train 0.449  val_loss 1.347  val 0.517
+  ep  55  loss 1.546  train 0.451  val_loss 1.340  val 0.525
+  ep  60  loss 1.523  train 0.460  val_loss 1.326  val 0.540
+  ep  65  loss 1.501  train 0.468  val_loss 1.309  val 0.536
+  ep  70  loss 1.482  train 0.479  val_loss 1.285  val 0.550
+  ep  75  loss 1.454  train 0.484  val_loss 1.271  val 0.547
+  ep  80  loss 1.432  train 0.498  val_loss 1.239  val 0.570
+  ep  85  loss 1.407  train 0.509  val_loss 1.229  val 0.572
+  ep  90  loss 1.404  train 0.510  val_loss 1.227  val 0.574
+   -> val 0.5744  test 0.5677  (124s)
+
+== mlp_3_1024-256 (mlp, 3,805,450 params) {'num_layers': 3} {'lr': 0.01}
+  ep   5  loss 1.923  train 0.297  val_loss 1.769  val 0.350
+  ep  10  loss 1.738  train 0.374  val_loss 1.580  val 0.427
+  ep  15  loss 1.653  train 0.405  val_loss 1.486  val 0.463
+  ep  20  loss 1.601  train 0.426  val_loss 1.427  val 0.490
+  ep  25  loss 1.564  train 0.439  val_loss 1.369  val 0.508
+  ep  30  loss 1.537  train 0.450  val_loss 1.350  val 0.508
+  ep  35  loss 1.515  train 0.458  val_loss 1.330  val 0.519
+  ep  40  loss 1.492  train 0.466  val_loss 1.311  val 0.526
+  ep  45  loss 1.477  train 0.471  val_loss 1.299  val 0.535
+  ep  50  loss 1.457  train 0.478  val_loss 1.291  val 0.536
+  ep  55  loss 1.445  train 0.485  val_loss 1.255  val 0.548
+  ep  60  loss 1.422  train 0.490  val_loss 1.251  val 0.548
+  ep  65  loss 1.405  train 0.500  val_loss 1.218  val 0.563
+  ep  70  loss 1.383  train 0.507  val_loss 1.215  val 0.566
+  ep  75  loss 1.363  train 0.513  val_loss 1.187  val 0.569
+  ep  80  loss 1.347  train 0.519  val_loss 1.173  val 0.575
+  ep  85  loss 1.333  train 0.525  val_loss 1.162  val 0.580
+  ep  90  loss 1.325  train 0.526  val_loss 1.159  val 0.580
+   -> val 0.5798  test 0.5797  (174s)
+
+== mlp_2x2048 (mlp, 10,510,346 params) {'num_layers': 2, 'hidden_size': [2048, 2048]} {'lr': 0.01}
+  ep   5  loss 1.766  train 0.368  val_loss 1.624  val 0.412
+  ep  10  loss 1.630  train 0.416  val_loss 1.475  val 0.466
+  ep  15  loss 1.558  train 0.445  val_loss 1.422  val 0.492
+  ep  20  loss 1.519  train 0.458  val_loss 1.383  val 0.508
+  ep  25  loss 1.490  train 0.467  val_loss 1.341  val 0.518
+  ep  30  loss 1.458  train 0.480  val_loss 1.331  val 0.526
+  ep  35  loss 1.432  train 0.489  val_loss 1.280  val 0.541
+  ep  40  loss 1.410  train 0.497  val_loss 1.271  val 0.546
+  ep  45  loss 1.386  train 0.506  val_loss 1.274  val 0.546
+  ep  50  loss 1.368  train 0.514  val_loss 1.242  val 0.556
+  ep  55  loss 1.343  train 0.524  val_loss 1.223  val 0.567
+  ep  60  loss 1.321  train 0.528  val_loss 1.195  val 0.575
+  ep  65  loss 1.296  train 0.542  val_loss 1.187  val 0.579
+  ep  70  loss 1.275  train 0.548  val_loss 1.150  val 0.591
+  ep  75  loss 1.244  train 0.559  val_loss 1.125  val 0.605
+  ep  80  loss 1.223  train 0.565  val_loss 1.109  val 0.614
+  ep  85  loss 1.200  train 0.576  val_loss 1.101  val 0.611
+  ep  90  loss 1.196  train 0.578  val_loss 1.098  val 0.615
+   -> val 0.6154  test 0.6121  (171s)
+
+== mlp_5_1024-64 (mlp, 3,844,682 params) {'num_layers': 5, 'dropout': 0.2} {'lr': 0.01}
+  ep   5  loss 2.215  train 0.171  val_loss 2.095  val 0.205
+  ep  10  loss 1.805  train 0.331  val_loss 1.670  val 0.383
+  ep  15  loss 1.616  train 0.419  val_loss 1.479  val 0.467
+  ep  20  loss 1.532  train 0.449  val_loss 1.387  val 0.496
+  ep  25  loss 1.482  train 0.470  val_loss 1.337  val 0.521
+  ep  30  loss 1.437  train 0.488  val_loss 1.295  val 0.530
+  ep  35  loss 1.406  train 0.500  val_loss 1.253  val 0.549
+  ep  40  loss 1.371  train 0.514  val_loss 1.231  val 0.553
+  ep  45  loss 1.345  train 0.525  val_loss 1.226  val 0.551
+  ep  50  loss 1.315  train 0.533  val_loss 1.196  val 0.567
+  ep  55  loss 1.292  train 0.542  val_loss 1.161  val 0.580
+  ep  60  loss 1.268  train 0.552  val_loss 1.149  val 0.590
+  ep  65  loss 1.245  train 0.564  val_loss 1.131  val 0.596
+  ep  70  loss 1.217  train 0.574  val_loss 1.118  val 0.597
+  ep  75  loss 1.191  train 0.582  val_loss 1.093  val 0.611
+  ep  80  loss 1.158  train 0.594  val_loss 1.061  val 0.622
+  ep  85  loss 1.143  train 0.597  val_loss 1.054  val 0.624
+  ep  90  loss 1.132  train 0.606  val_loss 1.047  val 0.627
+   -> val 0.6270  test 0.6250  (217s)
+# Resultados CIFAR-10
+
+Treino: 45.000 imagens · validação: 5.000 (seleção de modelo) · teste: 10.000. 90 épocas por modelo.
+
+## Ranking (ordenado pela acurácia de validação)
+
+| # | modelo | tipo | parâmetros | val | teste | treino | tempo (s) |
+|---|---|---|---:|---:|---:|---:|---:|
+| 1 | cnn_4conv_w64 | CNN | 1,686,794 | 91.30% | 91.14% | 99.03% | 302 |
+| 2 | cnn_5conv | CNN | 1,704,458 | 91.04% | 89.60% | 97.96% | 346 |
+| 3 | cnn_4conv | CNN | 423,562 | 90.42% | 89.54% | 95.65% | 316 |
+| 4 | cnn_4conv_nodrop | CNN | 423,562 | 90.04% | 89.41% | 97.24% | 295 |
+| 5 | cnn_4conv_adamw | CNN | 423,562 | 89.86% | 89.05% | 96.94% | 296 |
+| 6 | cnn_3conv_k5 | CNN | 267,978 | 87.12% | 86.83% | 90.95% | 179 |
+| 7 | cnn_3conv | CNN | 102,602 | 85.68% | 85.54% | 86.37% | 281 |
+| 8 | cnn_4conv_noaug | CNN | 423,562 | 84.02% | 83.75% | 99.99% | 269 |
+| 9 | cnn_2conv | CNN | 21,994 | 70.46% | 69.23% | 64.00% | 251 |
+| 10 | mlp_5_1024-64 | MLP | 3,844,682 | 62.70% | 62.50% | 60.60% | 217 |
+| 11 | mlp_2x2048 | MLP | 10,510,346 | 61.54% | 61.21% | 57.82% | 171 |
+| 12 | mlp_3_1024-256 | MLP | 3,805,450 | 57.98% | 57.97% | 52.55% | 174 |
+| 13 | mlp_1x512 | MLP | 1,578,506 | 57.44% | 56.77% | 51.01% | 124 |
+
+## Top-2: cnn_4conv_w64 vs cnn_5conv
+
+- Diferença de acurácia no teste: +1.54% (IC 95% bootstrap: +1.00% a +2.06%)
+- Só cnn_4conv_w64 acerta: 451 imagens · só cnn_5conv acerta: 297 imagens
+- Teste de McNemar (exato): p = 1.984e-08 → diferença significativa (α = 0,05)
+- Parâmetros: 1,686,794 vs 1,704,458
+
+| classe | cnn_4conv_w64 | cnn_5conv | diferença |
+|---|---:|---:|---:|
+| airplane | 92.6% | 91.1% | +1.5% |
+| automobile | 95.6% | 94.9% | +0.7% |
+| bird | 88.2% | 87.7% | +0.5% |
+| cat | 81.1% | 79.7% | +1.4% |
+| deer | 91.3% | 89.5% | +1.8% |
+| dog | 86.4% | 84.2% | +2.2% |
+| frog | 94.2% | 92.1% | +2.1% |
+| horse | 93.4% | 91.3% | +2.1% |
+| ship | 95.0% | 93.6% | +1.4% |
+| truck | 93.6% | 91.9% | +1.7% |
+
+## Melhor CNN vs melhor MLP
+
+| | CNN | MLP |
+|---|---:|---:|
+| modelo | cnn_4conv_w64 | mlp_5_1024-64 |
+| acurácia de teste | 91.14% | 62.50% |
+| parâmetros | 1,686,794 | 3,844,682 |
+| acurácia de treino | 99.03% | 60.60% |
+| tempo de treino (s) | 302 | 217 |
+
+A CNN acerta +28.64% a mais usando 2.3× menos parâmetros (McNemar p < 1e-10).
+
+Figuras: `confusion_top2.png`, `per_class_top2.png`, `acc_vs_params.png`, `loss_curves.png`.

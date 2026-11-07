@@ -1,0 +1,38 @@
+# --- Python ---
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+
+# --- ambiente virtual (uv) ---
+.venv/
+
+# --- dataset CIFAR-10 (~340 MB; baixado pelo torchvision / wget) ---
+data/
+
+# --- pesos treinados (~100 MB por execução; regeráveis com run_experiments.py) ---
+checkpoints/
+*.pt
+*.pth
+
+# --- LaTeX: arquivos auxiliares de compilação ---
+*.aux
+*.fdb_latexmk
+*.fls
+*.log
+*.out
+*.toc
+*.synctex.gz
+*.bbl
+*.blg
+report/build.log
+
+# os logs de treino ficam versionados (o *.log acima os ignoraria)
+!results*/train.log
+
+# --- editores / sistema ---
+.vscode/
+.idea/
+.DS_Store
+*.swp
